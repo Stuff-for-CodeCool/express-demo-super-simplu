@@ -5,6 +5,21 @@ const bodyParser = require("body-parser");
 //  facem treburi
 //  mari modificari aici
 
+
+
+//  Git workflow
+//  git checkout -b new_branch
+//  ...
+//  git add .
+//  git commit -m "what i've done"
+//  git push origin new_branch
+//      new branch published to remote
+//  git checkout new_branch
+//      downloads branch new_branch
+//  git merge new_branch
+//      merges new_branch into current branch
+
+
 const port = 9001;
 const app = express()
     .use(bodyParser.urlencoded({ extended: false }))
