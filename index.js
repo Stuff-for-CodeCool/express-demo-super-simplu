@@ -2,8 +2,7 @@ const express = require("express");
 const bodyParser = require("body-parser");
 
 //  mari modificari aici
-//  mari modificari aici
-//  mari modificari aici
+//  chestii
 //  mari modificari aici
 
 const port = 9001;
